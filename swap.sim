@@ -1,0 +1,11 @@
+;swap two numbers 
+LXI H,3000
+MOV B,M ; B = 12 
+INX H
+MOV A,M ; A=14
+DCX H
+MOV M,A
+INX H
+MOV M,B
+HLT
+
